@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Contato — Marco Antonio Fiusa</title>
+
+<style>
+:root{
+--bg:#0b1220;
+--card:#0f172a;
+--stroke:rgba(255,255,255,.12);
+--text:#e5e7eb;
+--muted:#9ca3af;
+--accent:#7c3aed;
+--accent2:#22c55e;
+--radius:18px;
+}
+
+body{
+margin:0;
+font-family:system-ui,-apple-system,Segoe UI,Roboto;
+background:var(--bg);
+color:var(--text);
+display:flex;
+align-items:center;
+justify-content:center;
+min-height:100vh;
+}
+
+.card{
+background:var(--card);
+border:1px solid var(--stroke);
+border-radius:var(--radius);
+padding:26px;
+max-width:360px;
+width:100%;
+text-align:center;
+box-shadow:0 30px 60px rgba(0,0,0,.45);
+}
+
+h1{margin:0 0 10px;font-size:22px}
+p{margin:0 0 18px;color:var(--muted)}
+
+.actions{
+display:flex;
+flex-direction:column;
+gap:12px;
+}
+
+.actions a{
+text-decoration:none;
+padding:14px;
+border-radius:999px;
+font-weight:800;
+color:white;
+background:linear-gradient(135deg,var(--accent),var(--accent2));
+}
+
+.actions a.secondary{
+background:rgba(255,255,255,.06);
+color:var(--text);
+border:1px solid var(--stroke);
+}
+
+.actions a:hover{
+transform:translateY(-2px);
+}
+
+.footer{
+margin-top:14px;
+font-size:12px;
+color:var(--muted);
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<h1>Marco Antonio Fiusa</h1>
+<p>Escolha como deseja entrar em contato:</p>
+
+<div class="actions">
+
+<a href="index.html">📄 Ver Currículo</a>
+
+<a href="mailto:marcofiusa@hotmail.com" class="secondary">
+📧 Enviar E-mail
+</a>
+
+<a href="https://wa.me/5537998767841" target="_blank" class="secondary">
+💬 WhatsApp
+</a>
+
+<a href="tel:+5537984045076" class="secondary">
+📞 Ligar
+</a>
+
+</div>
+
+<div class="footer">
+Escaneado via QR Code do currículo.
+</div>
+
+</div>
+
+</body>
+</html>

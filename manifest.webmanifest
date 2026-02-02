@@ -1,0 +1,39 @@
+{
+  "name": "Marco Antonio Fiusa — Currículo Interativo",
+  "short_name": "Marco Fiusa",
+  "description": "Currículo interativo e multilíngue com foco em Dados, Inteligência Artificial, Engenharia e Gestão.",
+
+  "start_url": "./index.html",
+  "scope": "./",
+
+  "display": "standalone",
+  "background_color": "#0b1220",
+  "theme_color": "#7c3aed",
+
+  "orientation": "portrait-primary",
+
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+
+  "categories": [
+    "business",
+    "education",
+    "productivity",
+    "portfolio",
+    "technology"
+  ],
+
+  "lang": "pt-BR",
+
+  "dir": "ltr"
+}
